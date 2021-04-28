@@ -1,0 +1,167 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 0 0 0;
+  background-color: #5cdb95;
+  color: #dfe7d2;
+  font-family: "Abril Fatface";
+}
+
+article {
+  margin: 0 0;
+}
+header {
+  /*background: linear-gradient(to top, #6f08c8 52%, #1f0069 100%);*/
+}
+
+nav {
+  background-color: #5cdb95;
+  padding: 1rem 1rem;
+  text-align: center;
+  margin: 0 0 0 0;
+  font-size: 1.8rem;
+}
+nav > ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  /*margin: 0.25rem 4rem 0.25rem 4rem;*/
+  background-color: #8ee4af;
+  padding: 1.5rem;
+  flex-direction: row;
+}
+nav > ul > li:nth-child(1) {
+  border-radius: 1.25rem 0 0 0;
+}
+nav > ul > *:last-child {
+  border-radius: 0 0 1.25rem 0;
+}
+main {
+  margin: 4rem 0 0 0;
+}
+article > p {
+  background-color: #3796833d;
+  border-radius: 1.25rem;
+}
+/* H1-H6 custom sizes */
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #05386b;
+}
+a:hover {
+  color: #edf5e1;
+}
+p {
+  margin: 0;
+  padding: 1rem 5rem;
+  font-size: 1.75rem;
+  text-indent: 2rem;
+}
+
+footer {
+  min-height: 5rem;
+  background-color: #379683;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  border-radius: 2rem 2rem 0 0;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.separator {
+  background-color: #8ee4af;
+  min-height: 8rem;
+  padding: 2rem 0;
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto;
+  border-radius: 3rem;
+  color: #05386b;
+}
+
+.separator > blockquote {
+  font-style: italic;
+  font-size: 1.75rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /*margin: 4rem 0 0 0;*/
+}
+.separator > cite {
+  display: block;
+  margin: 0.25rem auto 0 40%;
+  font-size: 1.45rem;
+}
+
+.section-article {
+  padding: 2rem 6rem;
+}
+.section-article h2 {
+  text-indent: 2rem;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
+#main-header {
+  margin: 0 auto 0 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 2rem 0;
+  color: #edf5e1;
+}
+#main-header p {
+  font-style: italic;
+  font-size: 1.8rem;
+  text-indent: 1rem;
+}
+#main-header h1 {
+  margin: 4rem 0 0 0;
+}
+
+#philosophy {
+  /*background-color: gainsboro;*/
+}
+
+#logo {
+  height: 18rem;
+  margin: 0 auto;
+}
+#site-name {
+  margin-right: 40%;
+}
+#back-to-top img {
+  height: 64px;
+  position: fixed;
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+}
+#footer-copytext {
+  display: flex;
+  justify-content: center;
+}
+#footer-flex-row {
+  display: flex;
+  justify-content: center;
+}
+#footer-flex-row > ul > li {
+  list-style-type: none;
+  display: inline;
+  margin: 0.25rem 4rem 0.25rem 4rem;
+}
