@@ -1,3 +1,6 @@
+/***********************************/
+/****************ELEMENTS***********/
+/*********************************/
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
@@ -13,9 +16,6 @@ body {
 
 article {
   margin: 0 0;
-}
-header {
-  /*background: linear-gradient(to top, #6f08c8 52%, #1f0069 100%);*/
 }
 
 nav {
@@ -85,6 +85,9 @@ footer {
   margin: 0 auto;
 }
 
+/***********************************/
+/****************CLASSES***********/
+/*********************************/
 .separator {
   background-color: #8ee4af;
   min-height: 8rem;
@@ -116,12 +119,15 @@ footer {
   text-decoration: underline;
   text-underline-offset: 0.25rem;
 }
+/***********************************/
+/****************ID's**************/
+/*********************************/
 
 #main-header {
-  margin: 0 auto 0 25%;
+  margin: 0 20vh 0 35vh;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 2rem 0;
   color: #edf5e1;
 }
@@ -134,16 +140,13 @@ footer {
   margin: 4rem 0 0 0;
 }
 
-#philosophy {
-  /*background-color: gainsboro;*/
-}
-
 #logo {
   height: 18rem;
-  margin: 0 auto;
+  padding: 0 15rem;
 }
 #site-name {
-  margin-right: 40%;
+  /*margin-right: 4vh;*/
+  max-width: 48rem;
 }
 #back-to-top img {
   height: 64px;
